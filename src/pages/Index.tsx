@@ -128,12 +128,12 @@ const Index = () => {
       </section>
 
       {/* Featured Opportunity - Team One */}
-      <section className="py-20 bg-gradient-secondary">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-hero relative overflow-hidden">
+        <div className="container relative mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4 text-foreground">Featured Opportunity</h2>
-              <p className="text-xl text-muted-foreground">Join an elite response team working directly with the founder</p>
+              <h2 className="text-4xl font-bold mb-4 text-primary-foreground">Featured Opportunity</h2>
+              <p className="text-xl text-primary-foreground/90">Join an elite response team working directly with the founder</p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -147,40 +147,40 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-foreground">Response Team 1</h3>
-                  <p className="text-muted-foreground mb-4">
+                  <h3 className="text-2xl font-bold mb-3 text-primary-foreground">Response Team 1</h3>
+                  <p className="text-primary-foreground/90 mb-4">
                     An exclusive opportunity to work directly with Founder Lyle Benjamin, solving pressing questions fast and developing elite skills.
                   </p>
                 </div>
                 
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <div className="bg-primary rounded-full p-1 mt-1">
+                    <div className="bg-primary-foreground/20 rounded-full p-1 mt-1">
                       <Zap className="h-4 w-4 text-primary-foreground" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Direct Mentorship</h4>
-                      <p className="text-sm text-muted-foreground">Work closely with experienced leadership</p>
+                      <h4 className="font-semibold text-primary-foreground">Direct Mentorship</h4>
+                      <p className="text-sm text-primary-foreground/80">Work closely with experienced leadership</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <div className="bg-primary rounded-full p-1 mt-1">
+                    <div className="bg-primary-foreground/20 rounded-full p-1 mt-1">
                       <Target className="h-4 w-4 text-primary-foreground" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Bonus Recognition</h4>
-                      <p className="text-sm text-muted-foreground">Earn additional points for this elite team</p>
+                      <h4 className="font-semibold text-primary-foreground">Bonus Recognition</h4>
+                      <p className="text-sm text-primary-foreground/80">Earn additional points for this elite team</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <div className="bg-primary rounded-full p-1 mt-1">
+                    <div className="bg-primary-foreground/20 rounded-full p-1 mt-1">
                       <Trophy className="h-4 w-4 text-primary-foreground" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Elite Skills Development</h4>
-                      <p className="text-sm text-muted-foreground">Master research, communication, and proactive problem-solving</p>
+                      <h4 className="font-semibold text-primary-foreground">Elite Skills Development</h4>
+                      <p className="text-sm text-primary-foreground/80">Master research, communication, and proactive problem-solving</p>
                     </div>
                   </div>
                 </div>
